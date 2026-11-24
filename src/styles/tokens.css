@@ -1,0 +1,10 @@
+/*
+ * Design tokens as CSS custom properties.
+ *
+ * Populated from the Figma design's variables and styles (colors, typography,
+ * spacing, radii, shadows, breakpoints-related values). Only values that exist
+ * in the design belong here — intentionally empty until the design is inspected.
+ */
+
+:root {
+}

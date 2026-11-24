@@ -1,0 +1,56 @@
+# ------------------------------------------------------------
+# Reem Portfolio — Git ignore rules
+# Keeps secrets, local tooling, and generated output out of the
+# public repository.
+# ------------------------------------------------------------
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Environment files (secrets). Only the empty template is tracked.
+.env
+.env.*
+!.env.example
+*.local
+
+# Local AI assistant instructions and configuration
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Supabase CLI local state (if the CLI is ever used locally)
+supabase/.temp/
+supabase/.branches/
+
+# Testing and tooling artifacts
+coverage/
+playwright-report/
+test-results/
+.playwright-mcp/
+.eslintcache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

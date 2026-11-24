@@ -85,15 +85,6 @@ ComponentName/
 
 The site is built as a static single-page application (`npm run build`) and deployed to a custom subdomain on Hostinger.
 
-## AI-assisted development
-
-This project is developed with the assistance of [Claude Code](https://claude.com/claude-code), an AI coding assistant by Anthropic, working under my direction.
-
-- **My work:** the visual design (created in Figma), the content, and all design and product decisions.
-- **AI-assisted work:** implementing code, configuring tooling, and writing documentation from my design specifications and instructions.
-
-This disclosure covers the whole repository, so individual commits don't carry an AI co-author line.
-
 ## License and credits
 
 Copyright © 2026 Reem Samy. All rights reserved.
